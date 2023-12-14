@@ -6,7 +6,4 @@
 
 ### 1 Expense Tracking project
 
-
-
-
-
+![Project Images](https://raw.githubusercontent.com/raksmeycoding/vue/master/exprese-tracking-project/public/ui.png)
