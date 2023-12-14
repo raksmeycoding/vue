@@ -92,6 +92,7 @@ watch(
 const deleteTransactionHandler = (id) => {
   transactions.value = transactions.value.filter((transaction) => transaction.id !== id)
   toast.success('Transaction deleted')
+  saveTransactionsToLocalStorage()
 }
 
 const saveTransactionsToLocalStorage = () => {
